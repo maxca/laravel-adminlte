@@ -8,6 +8,11 @@
 
 @section('content')
     <div class="row">
+      <div class="col-12 text-right">
+          <a href="{{url('student/create')}}" type="button" class="btn btn-primary mb-3">Add New Student</a>
+      </div>
+    </div>
+    <div class="row">
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
