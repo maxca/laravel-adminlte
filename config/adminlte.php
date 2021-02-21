@@ -241,6 +241,17 @@ return [
             'label'       => 4,
             'label_color' => 'success',
         ],
+        ['header' => 'ADMIN'],
+        [
+            'text' => 'Students',
+            'url'  => 'student',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+        [
+            'text' => 'Add New Student',
+            'url'  => 'student/create',
+            'icon' => 'fas fa-fw fa-user',
+        ],
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
